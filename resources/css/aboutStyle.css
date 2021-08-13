@@ -1,0 +1,142 @@
+
+                                /*
+                             EXAMPLE
+                                */
+
+
+
+                                /*
+                        Page Introduction
+                                */
+.introStatement {
+    position: relative;
+    top: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7em;
+    padding: 30px 30px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+#introTitle {
+    text-align: left;
+    text-decoration: underline;
+
+
+}
+
+#weAreFam {
+    color: orange;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2em;
+}
+
+
+                                /*
+                             EXAMPLE
+                                */
+.collegeMashup {
+
+}
+
+
+                                /*
+                     Member's Introductions
+                                */
+
+.Yisehak{
+  box-shadow: 5px 5px 2px red;
+}
+
+.Elaine {
+    box-shadow: 5px 5px 2px cornflowerblue;
+
+}
+
+.Yosi {
+    box-shadow: 5px 5px 2px olive;
+
+}
+
+.Abbi {
+    box-shadow: 5px 5px 2px burlywood;
+}
+
+.Salina {
+    box-shadow: 5px 5px 2px violet;
+}
+
+.Yonas {
+    box-shadow: 5px 5px 2px beige;
+}
+
+.Beth {
+    box-shadow: 5px 5px 2px blue;
+}
+
+.Sena {
+    box-shadow: 5px 5px 2px orange;
+   
+}
+
+.item {
+    color: white;
+    padding: 30px 30px;
+    border: 1px dotted black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3em;
+    
+    border-radius: 10px;
+
+    height: 450px;
+    width: 200px;
+    background-color: transparent;
+}
+
+
+.member-intro {
+    background-image: url(/resources/images/FamilyHeader.png);
+    margin: 0px;
+    padding: 40px;
+   
+
+    background-color: black;
+    overflow: scroll;
+
+   
+ }    
+ 
+ .container2 {
+     display: flex;
+     justify-content: space-between;
+     
+     
+   
+     
+ }
+ 
+ 
+ figure > h3 {
+     text-align: center;
+ }
+
+.bioPic {
+    width: 200px;
+   
+}
+
+.item > figcaption {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+                                /*
+                              Footer
+                                */
