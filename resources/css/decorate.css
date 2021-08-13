@@ -1,0 +1,273 @@
+
+body {
+    margin: 0;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    margin: 0px;
+
+}
+
+header {
+    margin: 0;
+    background: white;
+    padding: 0;
+
+    display: flex; 
+
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+#PageTitle {
+  
+    padding-left: 70px;
+
+    width: 400px;
+    text-shadow: 2px 2px 5px orange;
+}
+
+                                /* 
+                        Navigation Menu                 
+                                */
+.menuContainer {
+    margin: 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    padding-top: 10px;
+    padding-left: 50px;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    display: flex;
+}
+
+nav li {
+    margin-left: 70px;
+    padding-top: 25px;
+
+    position: relative;
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: orange;
+
+    position: absolute;
+    top: 10px;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
+
+                                /* 
+                            Slideshow
+                                */
+
+.mySlides {
+    position: relative;
+    display: none;
+    opacity: 0.6;
+    width: 100%;
+    height: 700px;
+}
+
+#firstPic {
+    display: block;
+}
+
+.buttonRight, .buttonLeft {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 30px;
+}
+
+.buttonRight {
+    right: 0;
+}
+
+                                /* 
+                        Introduction Section
+                                */
+
+#IntroTitle {
+    color: orange;
+    text-shadow: 1px 1px white;
+    text-align: center;
+}
+
+
+
+path {
+    fill: transparent;
+    position: relative;
+
+}
+
+text {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 35px;
+    fill: #FF9800;
+}
+    
+.Intro {
+    width: 700px;
+    height: 700px;
+
+    padding: 0px;
+    padding-top: 0px;;
+    margin-left: 90px;
+
+    border: 1px dotted black;
+    border-radius: 50%;
+    background-color: transparent;
+    color: orange;
+    box-shadow: 5px 10px 10px grey;
+    opacity: 0.85;
+    position: absolute;
+    top: 920px;
+    left: 0px;
+
+    font-size: 25px;
+    text-align: center;
+}
+
+div > p {
+    position: relative;
+    top: 100px;
+    line-height: 2;
+}
+
+.introVid {
+    margin: 0;
+    border-radius: 30px;
+    position: relative;
+    left: 900px;
+}
+
+                                /* 
+                    Tab Link Section  + Why HHH
+                                */
+/* Why HHH */
+.whyHHH { 
+    color: white;
+    text-shadow: 1px 1px orange;
+    font-size: 2em;
+    padding-top: 50px;
+}
+
+#whyPara {
+    position: relative;
+    top: 0px;
+
+    margin-right: 400px;
+}
+
+.container {
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+
+    background-color: black;
+  
+    width: 100%;
+    height: 500px;
+    
+   
+    display: flex;
+}
+
+/* Diaganol Tab Section */
+.box1 {
+    position: relative;
+    top: 30px;
+    left: 150px;
+}
+.box2, .box3 {
+    position: relative;
+    top: 175px;
+}
+
+.box2 {
+    right: 125px;
+}
+
+.box3 {
+    left: 40px;
+}
+
+.box4 {
+    position: relative;
+    top: 325px;
+    right: 230px;
+}
+
+/* Flex position for tabs */
+.flex-item {
+    width: 125px;
+    height: 75px;
+    background-color: orange;
+   
+    border-radius: 20px;
+    padding-top: 50px;
+    text-align: center;
+
+    transition: all .2s ease-in-out;
+}
+
+div > a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.flex-item:hover {
+    transform: scale(0.9);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+                                /* 
+                             Footnote
+                                */
+.footnote {
+    margin-top: 40px;
+    border-top: 1px solid black;
+    text-align: center;
+}
