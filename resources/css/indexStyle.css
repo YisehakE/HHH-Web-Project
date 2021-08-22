@@ -5,6 +5,10 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 400;
     margin: 0px;
+    
+
+
+    font-size: 30px;
 
 }
 
@@ -271,3 +275,4 @@ div > a {
     border-top: 1px solid black;
     text-align: center;
 }
+

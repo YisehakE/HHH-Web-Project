@@ -103,15 +103,23 @@
 
     background-color: black;
     overflow: scroll;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 52ae6c2 (Updating files after fixed merge conflicts)
  }    
  
  .container2 {
      display: flex;
      justify-content: space-between;
+<<<<<<< HEAD
      
      
    
      
+=======
+
+>>>>>>> 52ae6c2 (Updating files after fixed merge conflicts)
  }
  
  
@@ -129,9 +137,12 @@
 }
 
 
+<<<<<<< HEAD
 THESE ARE JUST CHANGES TO CHECK IF MERGE WORKS
 
 
+=======
+>>>>>>> 52ae6c2 (Updating files after fixed merge conflicts)
 
                                 /*
                               Footer
